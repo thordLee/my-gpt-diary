@@ -2,6 +2,8 @@
 
 유투브강의 주소
 https://www.youtube.com/watch?v=35jSbzRM8NA
+git주소
+https://github.com/dodokyo/gpt-diary-service
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
