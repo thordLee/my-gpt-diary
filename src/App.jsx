@@ -42,11 +42,11 @@ function App() {
 			<DiaryInput isLoading={isLoading} onSubmit={handleSubmit} />
 			<div>
 				<button onClick={handlerClickAPICall}>GPT API Call</button>
-				<div>data : {JSON.stringify(data?.title)}</div>
-				<div>data : {JSON.stringify(data?.thumbnail)}</div>
-				<div>data : {JSON.stringify(data?.summary)}</div>
-				<div>data : {JSON.stringify(data?.emotional_content)}</div>
-				<div>data : {JSON.stringify(data?.emotional_result)}</div>
+				<div>title : {JSON.stringify(data?.title)}</div>
+				<div>image : {JSON.stringify(data?.thumbnail)}</div>
+				<div>summary : {JSON.stringify(data?.summary)}</div>
+				<div>content : {JSON.stringify(data?.emotional_content)}</div>
+				<div>result : {JSON.stringify(data?.emotional_result)}</div>
 				<div>isLoading : {isLoading ? "로딩중":"답변끝"}</div>
 			</div>
 		</>
